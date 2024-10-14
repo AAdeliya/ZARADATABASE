@@ -31,6 +31,7 @@ public class PaymentRepository implements  IRepository<Payment> {
 
     @Override
     public void Add(Payment payment) {
+        payment.setCreditCardNumber(null); // Ensure transient data isn't stored
         List<Payment> payments = GetAll();
         payments.add(payment);
         SaveChanges(payments);
@@ -39,6 +40,8 @@ public class PaymentRepository implements  IRepository<Payment> {
 
     @Override
     public void Update(Payment payment) {
+        // Clear the transient field (credit card) before persisting the update
+        payment.setCreditCardNumber(null); // Ensure transient data isn't stored
         List<Payment> payments= GetAll();
         for (int i = 0; i < payments.size(); i++) {
             if (payments.get(i).getPaymentId() == payment.getPaymentId()) {

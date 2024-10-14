@@ -9,6 +9,8 @@ public class Payment implements Serializable {
     private String paymentMethod;
     private double paymentAmount;
 
+    private transient  String creditCardNumber;
+
     public int getPaymentId() {
         return paymentId;
     }
@@ -47,5 +49,14 @@ public class Payment implements Serializable {
 
     public void setPaymentAmount(double paymentAmount) {
         this.paymentAmount = paymentAmount;
+    }
+
+    // Getter and setter for credit card number
+    public String getCreditCardNumber() {
+        return creditCardNumber;
+    }
+
+    public void setCreditCardNumber(String creditCardNumber) {
+        this.creditCardNumber = creditCardNumber;
     }
 }
