@@ -22,6 +22,7 @@ public class DbSet  implements Serializable {
         payments = new HashMap<>();
         products = new HashMap<>();
     }
+
  //to not lose ownership on private lists we send a copy of the lists
     public Map<Integer, Customer> getCustomers() {
         return new HashMap<>(customers);

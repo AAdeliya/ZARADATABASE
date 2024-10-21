@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7b716e-cc18-4dfe-9bd9-5ddbf35a75cb" name="Changes" comment="added transition field CreditCardNumber to the Payment entity">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zara/org/Entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zara/org/Entities/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zara/org/Entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zara/org/Entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zara/org/Repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zara/org/Repository/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zara/org/Repository/DbSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zara/org/Repository/DbSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728866281726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added transition field CreditCardNumber to the Payment entity">
+      <option name="closed" value="true" />
+      <created>1729471845260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729471845260</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
