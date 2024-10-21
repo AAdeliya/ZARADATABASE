@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac7b716e-cc18-4dfe-9bd9-5ddbf35a75cb" name="Changes" comment="zaradatabase">
+    <list default="true" id="ac7b716e-cc18-4dfe-9bd9-5ddbf35a75cb" name="Changes" comment="added transition field CreditCardNumber to the Payment entity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zara/org/Entities/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zara/org/Entities/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zara/org/Repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zara/org/Repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zara/org/Entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zara/org/Entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zara/org/Entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zara/org/Entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zara/org/Repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zara/org/Repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zara/org/Repository/DbSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zara/org/Repository/DbSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AAdeliya&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d436e18b-6db6-4cc9-af23-70d53ec242ad" />
+        <option name="url" value="https://github.com/AAdeliya/ZARADATABASE.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -59,19 +75,28 @@
       <option name="project" value="LOCAL" />
       <updated>1728530560328</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added transition field CreditCardNumber to the Payment entity">
+      <option name="closed" value="true" />
+      <created>1728866281726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728866281726</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zaradatabase" />
-    <option name="LAST_COMMIT_MESSAGE" value="zaradatabase" />
+    <MESSAGE value="added transition field CreditCardNumber to the Payment entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="added transition field CreditCardNumber to the Payment entity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/zara/org/Repository/CustomerRepository.java</url>
-          <line>49</line>
+          <line>51</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

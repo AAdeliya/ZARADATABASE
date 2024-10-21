@@ -12,14 +12,17 @@ public class Product implements Serializable {
     }
 
     public void setProductId(int productId) {
+
         this.productId = productId;
     }
 
     public String getProductName() {
+
         return productName;
     }
 
     public void setProductName(String productName) {
+
         this.productName = productName;
     }
 

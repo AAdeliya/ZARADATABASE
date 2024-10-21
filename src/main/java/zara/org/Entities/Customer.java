@@ -7,6 +7,15 @@ public class Customer implements Serializable {
     private String customerName;
     private String customerAddress;
 
+    public Customer(String customerName, int customerId) {
+        this.customerName = customerName;
+        //this.customerId = new GetHash();
+        //this.customerId++; //to make auto increment; with String you can have unlimitted ids
+        this.customerId = customerId;
+
+
+    }
+
     public int getCustomerId() {
         return customerId;
     }

@@ -3,7 +3,9 @@ package zara.org.Repository;
 import zara.org.Entities.Customer;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
+import java.util.Map;
 
 public class CustomerRepository implements  IRepository<Customer> {
     DbContext context;
@@ -14,7 +16,7 @@ public class CustomerRepository implements  IRepository<Customer> {
     @Override
     public List<Customer> GetAll() {
         DbSet dbSet = context.GetDatabase();
-        return new ArrayList<>(dbSet.getCustomers());
+        return new ArrayList<>((Collection) dbSet.getCustomers());
     }
 
     @Override
@@ -59,7 +61,7 @@ public class CustomerRepository implements  IRepository<Customer> {
 
     private void SaveChanges(List<Customer> customers) {
         DbSet dbSet = context.GetDatabase();
-        dbSet.setCustomers(customers);
+        dbSet.setCustomers((Map<Integer, Customer>) customers);
         context.SaveChanges(dbSet);
     }
 
